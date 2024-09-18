@@ -13,7 +13,7 @@ def get_top_cryptocurrencies(limit=10):
     }
     headers = {
         'Accepts': 'application/json',
-        'X-CMC_PRO_API_KEY': '49b788e9-ba30-40da-90b1-9fd383279dc9',
+        'X-CMC_PRO_API_KEY': 'SUA CHAVE',
     }
 
     response = requests.get(url, headers=headers, params=parameters)
